@@ -11,435 +11,264 @@ export default function Calander() {
     const [events, setEvents] = useState(
         [
             {
-                end: "2023-07-14T15:00:00.000Z",
-                id: "b725rn",
-                start: "2023-07-14T13:00:00.000Z",
-                title: "Registration\r\n&\r\nOutdoor activities",
-                className: [
+                "id": "iefp3h",
+                "title": "Registration/Free time",
+                "start": "2023-08-25T12:00:00+02:00",
+                "end": "2023-08-25T13:00:00.000Z",
+                "className": [
                     "event-color-register"
                 ]
             },
             {
-                end: "2023-07-14T18:45:00.000Z",
-                id: "knx8o9",
-                start: "2023-07-14T17:30:00.000Z",
-                title: "Lillsved challenge",
-                className: [
-                    "event-color-lillesvedchalange"
-                ]
-            },
-            {
-                end: "2023-07-14T17:30:00.000Z",
-                id: "a154hm",
-                start: "2023-07-14T16:45:00.000Z",
-                title: "Information",
-                className: [
-                    "event-color-information"
-                ]
-            },
-            {
-                end: "2023-07-14T20:45:00.000Z",
-                id: "jxa83",
-                start: "2023-07-14T19:00:00.000Z",
-                title: "Speed-friending",
-                className: [
-                    "event-color-speed-finding-talent-show"
-                ]
-            },
-            {
-                end: "2023-07-14T16:30:00.000Z",
-                id: "010hua",
-                start: "2023-07-14T15:00:00.000Z",
-                title: "Dinner",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-15T16:30:00.000Z",
-                id: "ogt11",
-                start: "2023-07-15T15:00:00.000Z",
-                title: "Dinner",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-16T16:30:00.000Z",
-                id: "3ass1",
-                start: "2023-07-16T15:00:00.000Z",
-                title: "Dinner",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-17T17:45:00.000Z",
-                id: "q2rs4gu",
-                start: "2023-07-17T16:00:00.000Z",
-                title: "Dinner",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-14T22:00:00.000Z",
-                id: "kow8h7",
-                start: "2023-07-14T23:00:00+02:00",
-                title: "Games, chill, night snack",
-                className: [
-                    "event-color-game-chill-night-snack"
-                ]
-            },
-            {
-                end: "2023-07-15T22:00:00.000Z",
-                id: "qvczws",
-                start: "2023-07-15T23:00:00+02:00",
-                title: "Games, chill, night snack",
-                className: [
-                    "event-color-game-chill-night-snack"
-                ]
-            },
-            {
-                end: "2023-07-16T22:00:00.000Z",
-                id: "9lz14j",
-                start: "2023-07-16T23:00:00+02:00",
-                title: "Games, chill, night snack",
-                className: [
-                    "event-color-game-chill-night-snack"
-                ]
-            },
-            {
-                end: "2023-07-17T22:00:00.000Z",
-                id: "be8md",
-                start: "2023-07-17T23:00:00+02:00",
-                title: "Games, chill, night snack",
-                className: [
-                    "event-color-game-chill-night-snack"
-                ]
-            },
-            {
-                end: "2023-07-15T06:00:00.000Z",
-                id: "k14l6",
-                start: "2023-07-15T07:00:00+02:00",
-                title: "Morning recreation",
-                className: [
-                    "event-color-morning-walk-music-evening"
-                ]
-            },
-            {
-                end: "2023-07-16T06:00:00.000Z",
-                id: "ncsv09",
-                start: "2023-07-16T07:00:00+02:00",
-                title: "Morning recreation",
-                className: [
-                    "event-color-morning-walk-music-evening"
-                ]
-            },
-            {
-                end: "2023-07-17T06:00:00.000Z",
-                id: "jnqk4h",
-                start: "2023-07-17T07:00:00+02:00",
-                title: "Morning recreation",
-                className: [
-                    "event-color-morning-walk-music-evening"
-                ]
-            },
-            {
-                end: "2023-07-18T06:00:00.000Z",
-                id: "vvke4x",
-                start: "2023-07-18T07:00:00+02:00",
-                title: "Morning recreation",
-                className: [
-                    "event-color-morning-walk-music-evening"
-                ]
-            },
-            {
-                end: "2023-07-15T07:00:00.000Z",
-                id: "wlgkoa",
-                start: "2023-07-15T05:30:00.000Z",
-                title: "Breakfast",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-16T07:00:00.000Z",
-                id: "n3amrq",
-                start: "2023-07-16T05:30:00.000Z",
-                title: "Breakfast",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-17T07:00:00.000Z",
-                id: "vru2r",
-                start: "2023-07-17T05:30:00.000Z",
-                title: "Breakfast",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-18T07:00:00.000Z",
-                id: "74dxb8",
-                start: "2023-07-18T05:30:00.000Z",
-                title: "Breakfast",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-15T08:00:00.000Z",
-                id: "wvfxxq",
-                start: "2023-07-15T09:15:00+02:00",
-                title: "Study group",
-                className: [
-                    "event-color-study-group"
-                ]
-            },
-            {
-                end: "2023-07-16T08:00:00.000Z",
-                id: "cq8tzo",
-                start: "2023-07-16T09:15:00+02:00",
-                title: "Study group",
-                className: [
-                    "event-color-study-group"
-                ]
-            },
-            {
-                end: "2023-07-17T08:00:00.000Z",
-                id: "wn15o9",
-                start: "2023-07-17T09:15:00+02:00",
-                title: "Study group",
-                className: [
-                    "event-color-study-group"
-                ]
-            },
-            {
-                end: "2023-07-18T08:00:00.000Z",
-                id: "2evxpa",
-                start: "2023-07-18T09:15:00+02:00",
-                title: "Study group",
-                className: [
-                    "event-color-study-group"
-                ]
-            },
-            {
-                end: "2023-07-15T09:15:00.000Z",
-                id: "5cbjl",
-                start: "2023-07-15T10:15:00+02:00",
-                title: "*Workshop A",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-15T10:30:00.000Z",
-                id: "6wh6kt",
-                start: "2023-07-15T09:30:00.000Z",
-                title: "Workshop B",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-15T11:45:00.000Z",
-                id: "gscvza",
-                start: "2023-07-15T10:15:00.000Z",
-                title: "Lunch",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-16T11:45:00.000Z",
-                id: "z5eoi",
-                start: "2023-07-16T12:15:00+02:00",
-                title: "Lunch",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-17T11:45:00.000Z",
-                id: "iwm75x",
-                start: "2023-07-17T12:15:00+02:00",
-                title: "Lunch",
-                className: [
-                    "event-color-dinner-lunch-breakfast"
-                ]
-            },
-            {
-                end: "2023-07-16T10:30:00.000Z",
-                id: "vbdlo9",
-                start: "2023-07-16T11:30:00+02:00",
-                title: "Testimony meeting",
-                className: [
-                    "event-color-study-group"
-                ]
-            },
-            {
-                end: "2023-07-16T09:15:00.000Z",
-                id: "a0lij",
-                start: "2023-07-16T10:15:00+02:00",
-                title: "Sacrament meeting",
-                className: [
-                    "event-color-study-group"
-                ]
-            },
-            {
-                end: "2023-07-15T13:00:00.000Z",
-                id: "hlqojb",
-                start: "2023-07-15T14:00:00+02:00",
-                title: "Workshop C",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-15T14:30:00.000Z",
-                id: "mp4ny",
-                start: "2023-07-15T15:30:00+02:00",
-                title: "Workshop D",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-16T13:00:00.000Z",
-                id: "jb8pl",
-                start: "2023-07-16T14:00:00+02:00",
-                title: "Workshop E",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-16T14:30:00.000Z",
-                id: "zxff79",
-                start: "2023-07-16T15:30:00+02:00",
-                title: "Workshop F",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-17T09:15:00.000Z",
-                id: "4l4tso",
-                start: "2023-07-17T10:15:00+02:00",
-                title: "Workshop G",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-17T10:30:00.000Z",
-                id: "i2arr",
-                start: "2023-07-17T11:30:00+02:00",
-                title: "Workshop H",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-17T13:00:00.000Z",
-                id: "9z4c5b",
-                start: "2023-07-17T14:00:00+02:00",
-                title: "Workshop I",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-17T14:30:00.000Z",
-                id: "vi0mfp",
-                start: "2023-07-17T13:30:00.000Z",
-                title: "*Workshop J",
-                className: [
-                    "event-color-workshops"
-                ]
-            },
-            {
-                end: "2023-07-15T18:30:00.000Z",
-                id: "ff1j3v",
-                start: "2023-07-15T18:45:00+02:00",
-                title: "OUTDOOR GAMES",
-                className: [
-                    "event-color-outdoor-games"
-                ]
-            },
-            {
-                end: "2023-07-15T21:00:00.000Z",
-                id: "lguigb",
-                start: "2023-07-15T20:30:00+02:00",
-                title: "DANCE",
-                className: [
-                    "event-color-dance"
-                ]
-            },
-            {
-                end: "2023-07-16T19:00:00.000Z",
-                id: "icofmn",
-                start: "2023-07-16T18:45:00+02:00",
-                title: "Musical evening",
-                className: [
-                    "event-color-dance"
-                ]
-            },
-            {
-                end: "2023-07-16T21:00:00.000Z",
-                id: "xp2an",
-                start: "2023-07-16T21:00:00+02:00",
-                title: "Bonfire\r\n&\r\nOutdoor cinema",
-                className: [
-                    "event-color-bonfire"
-                ]
-            },
-            {
-                end: "2023-07-17T18:15:00.000Z",
-                id: "sjhuhs",
-                start: "2023-07-17T17:45:00.000Z",
-                title: "Talent show",
-                className: [
-                    "event-color-bonfire"
-                ]
-            },
-            {
-                end: "2023-07-17T21:00:00.000Z",
-                id: "m9fjlr",
-                start: "2023-07-17T18:15:00.000Z",
-                title: "DANCE",
-                className: [
-                    "event-color-dance"
-                ]
-            },
-            {
-                end: "2023-07-18T08:15:00.000Z",
-                id: "n84ee8",
-                start: "2023-07-18T10:00:00+02:00",
-                title: "Pictures",
-                className: [
-                    "event-color-picture"
-                ]
-            },
-            {
-                end: "2023-07-18T09:15:00.000Z",
-                id: "9ivbvu",
-                start: "2023-07-18T10:15:00+02:00",
-                title: "Devotional",
-                className: [
+                "id": "ev7whb",
+                "title": "Temple Attendance",
+                "start": "2023-08-25T13:00:00.000Z",
+                "end": "2023-08-25T16:30:00.000Z",
+                "className": [
                     "event-color-devotional"
                 ]
             },
             {
-                end: "2023-07-18T09:30:00.000Z",
-                id: "4qrkjo",
-                start: "2023-07-18T11:15:00+02:00",
-                title: "Goodbyes + Snack bag",
-                className: [
-                    "event-color-picture"
+                "id": "3hraf",
+                "title": "Dinner as BBQ",
+                "start": "2023-08-25T18:30:00+02:00",
+                "end": "2023-08-25T17:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "xwzwo",
+                "title": "Activity",
+                "start": "2023-08-25T19:30:00+02:00",
+                "end": "2023-08-25T21:00:00.000Z",
+                "className": [
+                    "event-color-game-chill-night-snack"
+                ]
+            },
+            {
+                "id": "vhs1ly",
+                "title": "Bed or Chill in Accommodation",
+                "start": "2023-08-25T23:00:00+02:00",
+                "end": "2023-08-25T22:00:00.000Z",
+                "className": [
+                    "event-color-speed-finding-talent-show"
+                ]
+            },
+            {
+                "id": "6pg1rs",
+                "title": "Bed or Chill in Accommodation",
+                "start": "2023-08-26T23:00:00+02:00",
+                "end": "2023-08-26T22:00:00.000Z",
+                "className": [
+                    "event-color-speed-finding-talent-show"
+                ]
+            },
+            {
+                "id": "33vxfu",
+                "title": "Bed or Chill in Accommodation",
+                "start": "2023-08-27T23:00:00+02:00",
+                "end": "2023-08-27T22:00:00.000Z",
+                "className": [
+                    "event-color-speed-finding-talent-show"
+                ]
+            },
+            {
+                "id": "ramw4",
+                "title": "Bed or Chill in Accommodation",
+                "start": "2023-08-28T23:00:00+02:00",
+                "end": "2023-08-28T22:00:00.000Z",
+                "className": [
+                    "event-color-speed-finding-talent-show"
+                ]
+            },
+            {
+                "id": "uu2e8",
+                "title": "Bed or Chill in Accommodation",
+                "start": "2023-08-29T23:00:00+02:00",
+                "end": "2023-08-29T22:00:00.000Z",
+                "className": [
+                    "event-color-speed-finding-talent-show"
+                ]
+            },
+            {
+                "id": "s9u4b",
+                "title": "Bed or Chill in Accommodation",
+                "start": "2023-08-30T23:00:00+02:00",
+                "end": "2023-08-30T22:00:00.000Z",
+                "className": [
+                    "event-color-speed-finding-talent-show"
+                ]
+            },
+            {
+                "id": "f7ukwxb",
+                "title": "Individual Extention",
+                "start": "2023-08-31T08:00:00.000Z",
+                "end": "2023-08-31T22:00:00.000Z",
+                "className": [
+                    "event-color-morning-walk-music-evening"
+                ]
+            },
+            {
+                "id": "bqd8xte",
+                "title": "Individual Extention",
+                "start": "2023-09-01T07:00:00+02:00",
+                "end": "2023-09-01T22:00:00.000Z",
+                "className": [
+                    "event-color-morning-walk-music-evening"
+                ]
+            },
+            {
+                "id": "7zsmie",
+                "title": "Individual Extention",
+                "start": "2023-09-02T07:00:00+02:00",
+                "end": "2023-09-02T11:00:00.000Z",
+                "className": [
+                    "event-color-morning-walk-music-evening"
+                ]
+            },
+            {
+                "id": "c41uo",
+                "title": "Breakfast",
+                "start": "2023-08-26T05:30:00.000Z",
+                "end": "2023-08-26T06:00:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "egbx1e",
+                "title": "Breakfast",
+                "start": "2023-08-27T07:30:00+02:00",
+                "end": "2023-08-27T06:00:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "980ugg",
+                "title": "Breakfast",
+                "start": "2023-08-28T07:30:00+02:00",
+                "end": "2023-08-28T06:00:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "jkzhn7",
+                "title": "Breakfast",
+                "start": "2023-08-29T07:30:00+02:00",
+                "end": "2023-08-29T06:00:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "krwkt6",
+                "title": "Breakfast",
+                "start": "2023-08-30T07:30:00+02:00",
+                "end": "2023-08-30T06:00:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "y1aq8s",
+                "title": "Breakfast",
+                "start": "2023-08-31T07:30:00+02:00",
+                "end": "2023-08-31T06:00:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "ej5iwb",
+                "title": "Morning Devotional with Temel President",
+                "start": "2023-08-26T06:00:00.000Z",
+                "end": "2023-08-26T07:00:00.000Z",
+                "className": [
+                    "event-color-study-group"
+                ]
+            },
+            {
+                "id": "d467xd",
+                "title": "Lunch",
+                "start": "2023-08-27T13:00:00+02:00",
+                "end": "2023-08-27T12:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "gdtx5",
+                "title": "Lunch",
+                "start": "2023-08-28T13:00:00+02:00",
+                "end": "2023-08-28T12:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "eezt6h",
+                "title": "Lunch",
+                "start": "2023-08-29T13:00:00+02:00",
+                "end": "2023-08-29T12:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "0c4ylp",
+                "title": "Lunch",
+                "start": "2023-08-30T13:00:00+02:00",
+                "end": "2023-08-30T12:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "c4tog",
+                "title": " Temple Marathon",
+                "start": "2023-08-26T07:00:00.000Z",
+                "end": "2023-08-26T21:00:00.000Z",
+                "className": [
+                    "event-color-workshops"
+                ]
+            },
+            {
+                "id": "rgyybw",
+                "title": "Dinner",
+                "start": "2023-08-27T18:30:00+02:00",
+                "end": "2023-08-27T17:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "wg5ik",
+                "title": "Dinner",
+                "start": "2023-08-28T18:30:00+02:00",
+                "end": "2023-08-28T17:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "vaz53l",
+                "title": "Dinner",
+                "start": "2023-08-29T18:30:00+02:00",
+                "end": "2023-08-29T17:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
+                ]
+            },
+            {
+                "id": "hz42oq",
+                "title": "Dinner",
+                "start": "2023-08-30T18:30:00+02:00",
+                "end": "2023-08-30T17:30:00.000Z",
+                "className": [
+                    "event-color-dinner-lunch-breakfast"
                 ]
             }
         ]
@@ -455,11 +284,11 @@ export default function Calander() {
 
     useEffect(() => {
         const handleKeyDown = (event) => {
-            if (event.ctrlKey && event.shiftKey && event.key === 'E') {
+            if (event.ctrlKey && event.shiftKey) {
+                console.log("teswt", editable)
                 setEditable((prevEditable) => !prevEditable);
             }
         };
-
         document.addEventListener('keydown', handleKeyDown);
 
         return () => {
@@ -684,19 +513,19 @@ export default function Calander() {
                 views={{
                     custom: {
                         type: 'timeGrid',
-                        duration: { days: 5 }, 
-                        buttonText: '5 day',
+                        duration: { days: 7 }, 
+                        buttonText: '7 day',
                     },
                     timeGridWeek: {
                         type: 'custom',
-                        duration: { days: 5 },
+                        duration: { days: 7 },
                         buttonText: 'all',
                     }
                 }}
                 datesSet={({ start }) => { start.setFullYear(2023, 6, 14) }} 
                 validRange={{
-                    start: '2023-07-14',
-                    end: '2023-07-19'
+                    start: '2023-08-25',
+                    end: '2023-09-03'
                 }}
                 editable={editable}
                 nowIndicator={true}
