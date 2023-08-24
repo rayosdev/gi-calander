@@ -1,0 +1,287 @@
+/* Global Styles for the Calendar */
+.fc {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Header Styles */
+.fc .fc-toolbar-title {
+    font-size: 1.5em;
+    color: #5D6D7E;
+}
+
+/* Event Styles */
+.fc .fc-event-title {
+    color: white;
+}
+
+.fc .fc-event-main {
+    background-color: #5DADE2;
+}
+
+.fc .fc-event {
+    border: none;
+}
+
+/* Background Color for Past Dates */
+.fc-past {
+    background-color: #519f9f !important;
+}
+
+.fc-day {
+    border-right: 2px solid #d2c4c4 !important;
+    /* Or any other color you prefer */
+}
+
+.fc-day:last-child {
+    border-right: none;
+    /* Removes border for the last column */
+}
+
+#root>div>div>div>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-slots>table>tbody {
+    height: 100% !important;
+}
+
+#root>div>div>div>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-slots>table>colgroup {
+    height: 100% !important;
+}
+
+#root>div>div>div>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-slots>table {
+    height: calc(100%) !important;
+}
+
+#root>div>div>div>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-slots {
+    height: 100% !important;
+}
+
+#root>div>div>div>div>table>tbody>tr>td>div>div>div {
+    /* height: 180% !important; */
+}
+
+#root>div>div>div>div>table>tbody>tr>td>div>div {
+    height: 100% !important;
+}
+
+#root>div>div>div>div>table>tbody>tr>td>div {
+    height: 100% !important;
+}
+
+#root>div>div>div>div>table>tbody>tr>td {
+    height: 100% !important;
+}
+
+#root>div>div>div>div>table {
+    height: 100% !important;
+}
+
+#root>div>div>div:nth-child(2) {
+    height: calc(100vh - 80px) !important;
+}
+
+div>div>div>a>div.fc-event-main>div>div.fc-event-time {
+    font-size: 0.8rem;
+}
+
+div>a>div.fc-event-main>div {
+}
+
+.fc .fc-event-main {
+    background: none !important;
+}
+
+body .fc-timegrid-col > div > div > div > a {
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* background: red !important; */
+}
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap {
+    min-width: 750px;
+    /* background: #f2f0ff; */
+}
+/* #root>div[aria-data-type="timeGridDay"]>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap {
+    min-width: 350px !important;
+    max-width: 1080px !important;
+} */
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fc-dom-2 {
+    width: 105px;
+    display: grid;
+    justify-content: center;
+}
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+    margin-bottom: 0;
+}
+
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr>div:nth-child(1)>div>button {
+    margin: 0 2px;
+}
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr>div:nth-child(1)>div>button.fc-prev-button.btn.btn-primary>span::after {
+    content: "<";
+    /* font-weight: 700; */
+    transform: scaleX(0.7) scaleY(1.5);
+    display: block;
+}
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr>div:nth-child(1)>div>button.fc-next-button.btn.btn-primary>span::after {
+    content: ">";
+    /* font-weight: 700; */
+    transform: scaleX(0.7) scaleY(1.5);
+    display: block;
+}
+
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr>div:nth-child(1)>div button,
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr>div:nth-child(1)>button
+{
+    /* visibility: hidden;
+    opacity: 0; */
+    /* pointer-events: none; */
+}
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr>div:nth-child(1)>div button[title="Previous day"],
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr>div:nth-child(1)>div button[title="Next day"],
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr>div:nth-child(1)>button[title="Today"] 
+{
+    /* visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s; */
+    /* pointer-events: all; */
+}
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div div>a>div.fc-event-main>div>b {
+    opacity: 0.9;
+    font-weight: 300;
+    /* font-size: larger;
+    font-weight: 700; */
+}
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div div>a>div.fc-event-main>div>h3 {
+    /* background: red; */
+    font-size: larger;
+    font-weight: 700;
+    /* display: inline-block; */
+    /* margin-left: 1rem; */
+}
+#root>div>div>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div>div>a>div.fc-event-main>div>b:nth-child(3) {
+    /* background: red; */
+    margin-right: 1rem;
+}
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-view-harness.fc-view-harness-active>div>table>thead>tr>th>div>div>table>thead>tr>th.fc-col-header-cell {
+    background: #3788d8;
+    color: #fff;
+}
+
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-slots>table>tbody>tr>td.fc-timegrid-slot.fc-timegrid-slot-lane.fc-timegrid-slot-minor,
+#root>div>div.fc.fc-media-screen.fc-direction-ltr.fc-theme-bootstrap>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-slots>table>tbody>tr>td.fc-timegrid-slot.fc-timegrid-slot-label.fc-timegrid-slot-minor
+{
+    background: #3788d836;
+}
+
+
+body {
+    background: #9a9cd1; /*Register*/
+    background: #afc1e2; /*Dinner/Lunch/breakfast*/
+    background: #d0b8cf; /*Information*/
+    background: #c5a8bf; /*LillesvedChalange*/
+    background: #c3d7ce; /*Speed-frinding/Talent Show*/
+    background: #969dc3; /*Game Chill Nicght Snack*/
+    background: #cde0b6; /*Morning Walk/Music evning*/
+    background: #f2e7a3; /*Studdy Group*/
+    background: #c7a8e7; /*Workshops*/
+    background: #bf94bb; /*Outdoor Games*/
+    background: #abc9b9; /*Dance*/
+    background: #b7cf94; /*Bonfire*/
+    background: #bdc7e3; /*Picture*/
+    background: #dee2f1; /*Divotinal*/
+    background: #fff;
+
+}
+
+.event-color-register                       {background-color: #9a9cd1;}
+.event-color-dinner-lunch-breakfast         {background-color: #afc1e2;}
+.event-color-information                    {background-color: #d0b8cf;}
+.event-color-lillesvedchalange              {background-color: #c5a8bf;}
+.event-color-speed-finding-talent-show      {background-color: #c3d7ce;}
+.event-color-game-chill-night-snack         {background-color: #969dc3;}
+.event-color-morning-walk-music-evening     {background-color: #cde0b6;}
+.event-color-study-group                    {background-color: #f2e7a3;}
+.event-color-workshops                      {background-color: #c7a8e7;}
+.event-color-outdoor-games                  {background-color: #bf94bb;}
+.event-color-dance                          {background-color: #abc9b9;}
+.event-color-bonfire                        {background-color: #b7cf94;}
+.event-color-picture                        {background-color: #bdc7e3;}
+.event-color-devotional                     {background-color: #dee2f1;}
+
+.event-color-register>div>div, .event-color-dinner-lunch-breakfast>div>div, .event-color-information>div>div, .event-color-lillesvedchalange>div>div, .event-color-speed-finding-talent-show>div>div, .event-color-game-chill-night-snack>div>div, .event-color-morning-walk-music-evening>div>div, .event-color-study-group>div>div, .event-color-workshops>div>div, .event-color-outdoor-games>div>div, .event-color-dance>div>div, .event-color-bonfire>div>div, .event-color-picture>div>div, .event-color-devotional>div>div {
+    color: #000 !important;
+}
+
+#root>div>div>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div:nth-child(2)>div>a.fc-timegrid-event-short b,
+#root>div>div>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div:nth-child(2)>div>a.fc-timegrid-event-short i
+{
+    display: none;
+}
+#root>div>div>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div:nth-child(2)>div>a.fc-timegrid-event-short>div {
+    display: grid;
+    justify-content: center;
+    /* align-content: center; */
+    /* overflow: hidden; */
+    padding: 0.25px;
+}
+
+#root>div>div>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div:nth-child(2)>div>a.fc-timegrid-event-short>div>div {
+    /* align-content: center; */
+    /* overflow: hidden; */
+    padding: 0.25px;
+}
+#root>div>div>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div:nth-child(2)>div>a.fc-timegrid-event-short>div>div h3 {
+    /* align-content: center; */
+    /* overflow: hidden; */
+    margin-top: -5px !important;
+}
+
+#root>div>div>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-daybody .fc-timegrid-col>div>div:nth-child(2)>div>a.fc-timegrid-event-short h3 {
+    word-break: break-word;
+    margin: 0 !important;
+    padding: 0;
+    font-size: small !important;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    /* overflow: hidden; */
+}
+
+html {
+    background-color: #fff !important;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: 700;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    /* CSS styles for iPads and smaller devices */
+
+    #root>div>div>div.fc-view-harness.fc-view-harness-active>div>table>tbody>tr>td>div>div>div>div.fc-timegrid-cols>table>tbody>tr>td.fc-day.fc-timegrid-col>div>div > div > a > div > div > b {
+        font-size: smaller;
+    }
+
+    h3 {
+            font-size: smaller;
+            font-weight: 700;
+    }
+
+    
+}
